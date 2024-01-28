@@ -1,0 +1,25 @@
+{
+    "name": "joshuawingert/mealie-connector",
+    "description": "Laravel Package that allow you to connect to Mealie",
+    "autoload": {
+        "psr-4": {
+            "JW\\Mealie\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joshua Wingert"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "eluceo/ical": "^2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JW\\Mealie\\MealieConnectorServiceProvider"
+            ]
+        }
+    }
+}
